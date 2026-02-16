@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7eedc;
+    color: #5a3a1e;
+}
+
+header {
+    background: #5a3a1e;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    background: #cc6e2e;
+}
+
+.hero {
+    background: #b87a5e;
+    padding: 80px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin: 10px 0;
+    color: white;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 35px;
+    background: #cc6e2e;
+    color: white;
+    border-radius: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.hero-link:hover {
+    background: #a65521;
+}
+
+section h2 {
+    margin-left: 20px;
+    font-size: 26px;
+    color: #c06526;
+}
+
+.specials {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 100%;
+    max-width: 310px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+#menu {
+    padding-top: 40px;
+}
+
+#menu h1 {
+    font-size: 45px;
+    margin-left: 40px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 10px;
+    color: #8a5b3a;
+    font-size: 25px;
+}
+
+.menu-title {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 40px;
+}
+
+.item {
+    background: #dba77b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item-top {
+    background: #78492e;
+    color: #fce5cc;
+    text-align: center;
+    padding: 25px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.item-bottom {
+    background: #f6d9c1;
+    padding: 15px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+#story {
+    padding-top: 40px;
+}
+
+#story h1 {
+    font-size: 45px;
+    margin-left: 40px;
+}
+
+.story-box {
+    background: #fce7c9;
+    margin: 40px;
+    padding: 25px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+.timeline {
+    margin-left: 60px;
+    padding-left: 30px;
+    border-left: 5px solid #78492e;
+}
+
+.event {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.year {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+footer {
+    background: #5a3a1e;
+    color: white;
+    padding: 30px 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    header h1 {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .hero {
+        padding: 50px 15px;
+        margin: 10px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    section h2 {
+        margin-left: 15px;
+        font-size: 22px;
+    }
+
+    .specials {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    #menu h1 {
+        font-size: 32px;
+        margin-left: 15px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    .menu-title {
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    #story h1 {
+        font-size: 32px;
+        margin-left: 15px;
+    }
+
+    .story-box {
+        margin: 15px;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .timeline {
+        margin-left: 20px;
+        padding-left: 15px;
+    }
+
+    .year {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .footer-boxes {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 20px 15px;
+    }
+
+    footer h3 {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav a {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    .hero {
+        padding: 30px 10px;
+        margin: 5px;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .hero-link {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+
+    section h2 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .specials {
+        padding: 10px;
+    }
+
+    #menu h1 {
+        font-size: 26px;
+        margin-left: 10px;
+    }
+
+    .menu-title {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .menu-grid {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .item-top {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .item-bottom {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    #story h1 {
+        font-size: 26px;
+        margin-left: 10px;
+    }
+
+    .story-box {
+        margin: 10px;
+        padding: 12px;
+        font-size: 13px;
+    }
+
+    .timeline {
+        margin-left: 10px;
+        padding-left: 10px;
+    }
