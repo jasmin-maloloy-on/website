@@ -3,249 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jaja's Cup</title>
-
-<style>
-    body {
-       margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f7eedc;
-            color: #5a3a1e;
-    }
-    
-    header {
-           background: #5a3a1e;
-           padding: 15px 20px;
-            border-radius: 20px;
-            margin: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-    }
-
-    header h1 {
-        color: white;
-        margin: 0;
-        font-size: 20px;
-    }
-
-    nav a {
-        color: white;
-        margin-left: 18px;  
-        padding: 6px 14px;
-        border-radius: 20px;
-        
-    }
-
-  
-
-    .hero {
-        background: #b87a5e;
-        padding: 80px 20px;
-        margin: 20px;
-        border-radius: 10px;
-        text-align: center;
-        color: white;
-    }
-
-    .hero h2 {
-        font-size: 38px;
-            margin: 10px ;
-            color: white;
-
-    }
-
-    .hero p {
-        font-size: 18px;
-    }
-
-    .hero-link {
-        display: inline-block;
-        margin-top: 25px;
-        padding: 14px 35px;
-        background: #cc6e2e;
-        color: white;
-        border-radius: 40px;
-        font-size: 16px;
-   
-    }
-
-    section h2 {
-        margin-left: 20px;
-        font-size: 26px;
-        color: #c06526;
-    }
-
-    .specials {
-        display: flex;
-        gap: 20px;
-        padding: 20px;
-    }
-
-    .card {
-        background: white;
-        width: 310px;
-        padding: 25px;
-        border-radius: 10px;
-    }
-
-    .card h3 {
-        font-size: 20px;
-        margin-top: 0;
-    }
-
-    #menu {
-        padding-top: 40px;
-    }
-
-    #menu h1 {
-        font-size: 45px;
-        margin-left: 40px;
-    }
-
-    .subtitle {
-        text-align: center;
-        margin-top: 10px;
-        color: #8a5b3a;
-        font-size: 25px;
-    }
-
-    .menu-title {
-        font-size: 30px;
-        margin-left: 40px;
-        margin-top: 40px;
-    }
-
-    .menu-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 25px;
-        padding: 40px;
-    }
-
-    .item {
-        background: #dba77b;
-        border-radius: 10px;
-        overflow: hidden;
-    }
-
-    .item-top {
-        background: #78492e;
-        color: #fce5cc;
-        text-align: center;
-         padding: 25px;
-        font-size: 26px;
-        font-weight: bold;
-    }
-
-
-    .item-bottom {
-        background: #f6d9c1;
-        padding: 15px;
-        font-size: 15px;
-        line-height: 1.4;
-    }
-
-    .story {
-        padding-top: 40px;
-    }
-
-    .story h1 {
-        font-size: 45px;
-        margin-left: 40px;
-    }
-
-    .story-box {
-        background: #fce7c9;
-         margin: 40px;
-        padding: 25px;
-        border-radius: 10px;
-        line-height: 1.6;
-    }
-
-    .timeline {
-        margin-left: 60px;
-          padding-left: 30px;
-        border-left: 5px solid #78492e;
-    }
-
-    .event {
-        margin-bottom: 40px;
-        position: relative;
-    }
-
-
-    event {
-        width: 14px;
-         height: 14px;
-        background: #78492e;
-        border-radius: 50px;
-         position: absolute;
-         left: 42px;
-        top: 4px;
-    }
-
-    .year {
-        font-size: 22px;
-        font-weight: bold;
-    }
-
-    .title {
-        font-size: 18px;
-        font-weight: bold;
-         margin-bottom: 5px;
-    }
-
-    footer {
-        background: #5a3a1e;
-        color: white;
-         padding: 30px 20px;
-        margin-top: 40px;
-        text-align: center;
-    }
-
-    .footer-boxes {
-        display: flex;
-        justify-content: center;
-        gap: 40px;
-         flex-wrap: wrap;
-        margin-top: 20px;
-    }
-</style>
+<title>Jaja's Cup - Home</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>Jaja’s Cup</h1>
+    <h1>Jaja's Cup</h1>
     <nav>
-        <a href="#home" class="active">Home</a>
-        <a href="#menu">Menu</a>
-        <a href="#story">Our Story</a>
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="story.html">Our Story</a>
     </nav>
 </header>
 
- <section id="home" class="hero">
-    <h2>Welcome to Jaja’s Cup</h2>
+<section id="home" class="hero">
+    <h2>Welcome to Jaja's Cup</h2>
     <p>Where every cup tells a story, and every sip feels like home.</p>
-
-    <a href="#menu" class="hero-link">Explore Our Menu</a>
+    <a href="menu.html" class="hero-link">Explore Our Menu</a>
 </section>
 
 <section>
-    <h2>WHY WE’RE SPECIAL?</h2>
-
+    <h2>WHY WE'RE SPECIAL?</h2>
     <div class="specials">
         <article class="card">
             <h3>☕ Premium Coffee</h3>
             <p>We source our beans from sustainable farms, ensuring the highest quality in every cup.</p>
         </article>
-
         <article class="card">
             <h3>💰 Affordable Prices</h3>
             <p>Quality coffee at prices everyone can enjoy.</p>
         </article>
-
         <article class="card">
             <h3>🏠 Cozy Atmosphere</h3>
             <p>A warm, welcoming place that feels like home.</p>
@@ -253,116 +42,15 @@
     </div>
 </section>
 
-<section id="menu">
-    <h1>Our Menu</h1>
-    <p class="subtitle">Delicious drinks and pastries made with love and care</p>
-
-    <h3 class="menu-title">Coffee, Drinks and Pastries</h3>
-
-    <div class="menu-grid">
-
-        <div class="item">
-            <div class="item-top">ESPRESSO</div>
-            <div class="item-bottom">Classic espresso – bold and rich.<br>$2.50</div>
-        </div>
-
-        <div class="item">
-            <div class="item-top">CAPPUCCINO</div>
-            <div class="item-bottom">Foamy and creamy.<br>$3.75</div>
-        </div>
-
-        <div class="item">
-            <div class="item-top">LATTE</div>
-            <div class="item-bottom">Smooth + steamed milk.<br>$4.00</div>
-        </div>
-
-        <div class="item">
-            <div class="item-top">MOCHA</div>
-            <div class="item-bottom">Chocolate & espresso.<br>$4.50</div>
-        </div>
-
-        <div class="item">
-            <div class="item-top">CROISSANT</div>
-            <div class="item-bottom">Buttery and flaky.<br>$2.75</div>
-        </div>
-
-        <div class="item">
-            <div class="item-top">MUFFIN</div>
-            <div class="item-bottom">Fresh blueberries.<br>$3.25</div>
-        </div>
-
-        <div class="item">
-            <div class="item-top">SCONE</div>
-            <div class="item-bottom">Cranberry orange.<br>$3.00</div>
-        </div>
-
-        <div class="item">
-            <div class="item-top">COOKIE</div>
-            <div class="item-bottom">Chocolate chip.<br>$2.25</div>
-        </div>
-
-    </div>
-</section>
-
-<section id="story">
-     <h1>Our Story</h1>
-    <p class="subtitle">How Jaja’s Cup became your favorite neighborhood coffee shop</p>
-
-    <div class="story-box">
-        <strong>From a Dream to Your Cup</strong><br><br>
-        Jaja’s Cup began as a simple dream – to create a space where everyone could enjoy quality coffee without the pretentiousness or high prices of typical specialty cafes. Our founder, Maria “Jaja” Gonzalez, grew up in a family where coffee was more than just a drink; it was a way to connect, share stories, and build community. <br> <br>
-
-After years of working in corporate coffee chains, Maria realized that something was missing – the personal touch, the sense of belonging, and the commitment to making quality coffee accessible to all. In 2018, she decided to turn her vision into reality and opened the first Jaja’s Cup in a small storefront with just four tables. <br> <br>
-
-Today, we still hold true to those original values: quality coffee, affordable prices, and a welcoming atmosphere where everyone feels like family.
-    </div>
-
-    <div class="timeline">
-
-         <div class="event">
-            <div class="year">2015</div>
-            <div class="title">The Idea is Born</div>
-            Jasmin begins developing her concept for an inclusive, affordable coffee shop that doesn’t compromise on quality.
-        </div>
-
-        <div class="event">
-            <div class="year">2017</div>
-            <div class="title">Finding the Spot</div>
-           After two years of searching, Maria finds the ideal location in a vibrant neighborhood that matched her vision.
-        </div>
-
-        <div class="event">
-             <div class="year">2018</div>
-            <div class="title">Grand Opening</div>
-            Jaja’s Cup opens its doors for the first time, quickly becoming a neighborhood favorite.
-        </div>
-
-        <div class="event">
-            <div class="year">2020</div>
-            <div class="title">Community Support</div>
-            During challenging times, our community helped us stay afloat through support and loyalty.
-        </div>
-
-        <div class="event">
-            <div class="year">2023</div>
-            <div class="title">New Team Members</div>
-           More helping hands join the family for great coffee and community.
-         </div>
-
-    </div>
-</section>
-
 <footer>
-     <h3>Where great coffee and good people meet!</h3>
-
+    <h3>Where great coffee and good people meet!</h3>
     <div class="footer-boxes">
         <div>
             <p><strong>Hours</strong><br><br>
             Mon–Fri: 7am–7pm <br>
             Sat–Sun: 8am–6pm</p>
         </div>
-
-         <div>
+        <div>
             <p><strong>Connect With Us</strong><br><br>
             FB & IG <br>
             123 Coffee Lane, Brewerstown <br>
@@ -373,3 +61,5 @@ Today, we still hold true to those original values: quality coffee, affordable p
 
 </body>
 </html>
+
+
